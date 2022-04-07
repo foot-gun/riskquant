@@ -25,10 +25,9 @@ setup(
                  'Intended Audience :: System Administrators',
                  'Topic :: Office/Business :: Financial'
     ],
-    url='https://github.com/Netflix-Skunkworks/riskquant',
-    download_url=('https://github.com/Netflix-Skunkworks/riskquant/archive/' + version + '.tar.gz'),
+    url='https://github.com/foot-gun/riskquant',
     setup_requires=['setupmeta'],
-    python_requires='>=3.8',
+    python_requires='>=3.7',
     install_requires=[
         'matplotlib',
         'numpy >=1.19.0',
